@@ -111,8 +111,8 @@ li a:hover {
  	display: flex;
  	align-items: center;
  	justify-content: center;
- 	margin-right: 200px;
- 	margin-left: 200px;
+ 	margin-right: 50px;
+ 	margin-left: 50px;
  	margin-bottom: 50px;
 }
 .main {
@@ -125,7 +125,7 @@ li a:hover {
   	font-size: 1.2em;
   	border-radius: 15px;
   	border-color:  #000099;
-
+	padding: 20px;
 }
 footer{
 	text-align: center;
