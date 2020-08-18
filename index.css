@@ -28,7 +28,7 @@ body{
 	background: #000000;
 	color: #ffad33;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 860px){
 	.main-nav{
 	font-size: 0.5em;
 	padding: 0;
@@ -64,11 +64,12 @@ li a:hover {
 	align-items: center;
 	justify-content: center;
 	height: 60vh;
-	margin-top: 75px;
+	margin-top: 70px;
 	background-image: url('bluegrid.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 @media only screen and (max-width: 600px) {
 	.container > img{
 	width: 90%;
@@ -87,7 +88,9 @@ li a:hover {
 	color: #ff9900;
 	align-items: center;
 	justify-content: center;
+	z-index: 1;
 }
+
 .blogheading{
 	display: flex;
 	align-items: center;
